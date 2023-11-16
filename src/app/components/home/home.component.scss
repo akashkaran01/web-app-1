@@ -1,0 +1,76 @@
+@import "../../../assets/css/variable.scss";
+
+.home {
+    .bg-image {
+        height: 1000px;
+
+        img {
+            background-position: center;
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .latest-products {
+        padding: 15px 15px 0;
+        background-color: $project-white;
+        height: 700px;
+        width: 100%;
+        display: flex;
+        gap: 15px;
+
+        .latest-products-item-1 {
+            background-image: url(../../../assets/image/defence-force.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+
+            width: 100%;
+            height: 100%;
+
+            cursor: pointer;
+        }
+
+        .latest-products-item-2 {
+            background-image: url(../../../assets/image/smart-city.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+
+            width: 100%;
+            height: 100%;
+
+            cursor: pointer;
+        }
+
+        .item-content {
+            padding-top: 6.8rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            color: #272727;
+
+            .latest-products-item-modelname {
+                font-size: 3rem;
+                font-weight: bold;
+            }
+
+            .latest-products-item-name {
+                font-size: 2rem;
+                font-weight: 600;
+                margin-top: 1rem;
+            }
+
+            .hyperlink {
+                margin-top: 3rem;
+                font-size: 20px;
+                cursor: pointer;
+            }
+
+            .hyperlink:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+
+}

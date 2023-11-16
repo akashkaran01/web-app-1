@@ -1,0 +1,31 @@
+<footer class="bg-black">
+    <div class="container">
+        <div class="footer-head">
+            <img src="../../../assets/image/Saikia-Logo.jpeg" />
+        </div>
+        <div class="footer-body">
+            <ul class="footer-body-lists" *ngFor="let footer of allFootersData">
+                <div class="footer-body-heading"><span>{{footer.footerHeading}}</span></div>
+                <li class="footer-body-item" *ngFor="let subFooter of footer.subFooters">
+                    <span>{{subFooter}}</span>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-tail">
+            <div class="footer-tail-head-child">
+                <span>Saikia Subdiary Brands</span>
+            </div>
+        </div>
+        <div class="container-policy">
+            <div class="copyright">
+                Copyright &copy; 1993-2013 Saikia Communications Corporation Limited All Rights Reserved <span>Yue ICP Ref.2022123120</span>
+            </div>
+            <div class="policies">
+                <a>Terms of Use</a>
+                <a>Legal Notice</a>
+                <a>Privacy Policy</a>
+                <a>Cookie Policy</a>
+            </div>
+        </div>
+    </div>
+</footer>

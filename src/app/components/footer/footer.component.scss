@@ -1,0 +1,88 @@
+@import "../../../assets/css/variable.scss";
+
+footer {
+    margin-top: 20px;
+    // height: 100px;
+    // height: auto;
+
+    .container {
+        max-width: 82%;
+        margin: auto;
+
+        .footer-head {
+            padding: 40px 0;
+            border-bottom: 1px solid grey;
+        }
+
+        .footer-body {
+            padding: 32px 0;
+            display: flex;
+            font-size: 12px;
+            border-bottom: 1px solid grey;
+
+            .footer-body-lists {
+                flex: 0 0 16.66667%;
+                max-width: 16.66667%;
+                list-style-type: none;
+                color: #919699;
+
+                .footer-body-heading {
+                    font-weight: 700;
+                    color: $project-white;
+                    padding: 8px 0;
+                }
+
+                .footer-body-item {
+                    font-weight: 400;
+                    padding: 8px 0;
+
+                    span:hover {
+                        text-decoration: underline;
+                        cursor: pointer
+                    }
+                }
+            }
+        }
+
+        .footer-tail {
+            display: flex;
+            height: 70px;
+            padding: 25px 0;
+            border-bottom: 1px solid grey;
+
+            .footer-tail-head-child {
+                font-weight: 400;
+                color: #919699;
+                font-size: 12px;
+            }
+        }
+
+        .container-policy {
+            display: flex;
+            height: 70px;
+            padding: 25px 0;
+            color: rgb(147 8 8);
+            font-size: 12px;
+
+            .copyright {
+                flex: 0 0 70%;
+
+                span:hover {
+                    cursor: pointer;
+                    color: greenyellow;
+                }
+            }
+
+            .policies {
+                a {
+                    padding: 0 20px;
+                }
+
+                a:hover {
+                    cursor: pointer;
+                    color: greenyellow;
+                }
+            }
+        }
+    }
+}

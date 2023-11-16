@@ -1,0 +1,61 @@
+<header>
+  <!-- <div class="container"> -->
+  <div class="container-header-center">
+    <div class="organisation-logo" (mouseenter)="hideHeaderContent()">
+      <img src="../../../assets/image/Saikia-Logo.jpeg" />
+    </div>
+    <div class="header-routes-area">
+      <nav>
+        <ul>
+          <li (mouseenter)="showHeaderContent(header)" *ngFor="let header of allHeaders">
+            <div>
+              <a>{{ header.name }}</a>
+            </div>
+          </li>
+        </ul>
+      </nav>
+      <div class="search-and-contact-area">
+        <div class="search-btn">
+          <span class="material-symbols-outlined">
+            search
+          </span>
+        </div>
+        <div class="contact-area">
+          <div class="btn">
+            CONTACT SAIKIA
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- </div> -->
+</header>
+<div *ngFor="let header of allHeaders" (mouseleave)="header.show = false">
+  <div *ngIf="header.show === true" class="subnav">
+    <div class="subnav-container">
+      <div class="subnav-area">
+        <div *ngFor="let subHeader of header.subHeaders" class="subnav-item"
+          [ngClass]="{'active': subHeader.showSubHeaderContent }" (click)="showSubHeaderContent(header,subHeader)">
+          <span>{{subHeader.name}}</span>
+          <!-- <svg *ngIf="subHeader.showSubHeaderContent" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M504-480 320-664l56-56 240 240-240 240-56-56 184-184Z"/></svg>        </div> -->
+        </div>
+      </div>
+      <div class="selected-subnav-content">
+        <div *ngFor="let subHeader of header.subHeaders" class="selected-subnav-item">
+          <div *ngIf="subHeader.showSubHeaderContent">
+            <div class="selected-subnav-head">
+              <span>{{subHeader.name}}</span>
+            </div>
+            <div class="selected-subnav-body">
+              <p>{{subHeader.content}}</p>
+            </div>
+            <div class="selected-subnav-feet">
+              <div *ngFor="let subsubHeader of subHeader.subSubHeaderList" class="selected-subnav-feet-item">
+                {{subsubHeader}}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
