@@ -10,8 +10,15 @@ footer {
         margin: auto;
 
         .footer-head {
+            height: 145px;
             padding: 40px 0;
             border-bottom: 1px solid grey;
+            
+            .saikia{
+                background-image: url(./../../../assets/image/Saikia-Logo.jpg);
+                width: 280px;
+                height: 100%;
+            }
         }
 
         .footer-body {
