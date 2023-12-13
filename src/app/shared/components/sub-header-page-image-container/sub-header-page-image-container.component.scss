@@ -1,0 +1,44 @@
+.bg-img-section{
+    height: 550px;
+    width: 100%;
+    // background: linear-gradient(0,rgba(0,32,91,1) 0%,rgba(255,255,255,0) 40%);
+
+    .img-content{
+        // padding: 85px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        
+        max-width: 600px;
+        
+        color: #fff;
+
+        .header-info{
+            margin-bottom: 80px;
+
+            h1{
+                font-size: 45px;
+                line-height: 1.2;
+                margin-bottom: 12px;
+            }
+    
+            p{
+                font-size: 25px;
+            }
+        }
+
+        .button-area{
+            display: flex;
+            gap: 25px;
+        }
+    }
+}
+
+.dmr-two-way-radios-bg-img{
+    background-image: url(../../../../assets/image/dmr-two-way-radios.jpg);
+}
+
+.dmr-repeaters-and-systems-bg-img{
+    background-image: url('../../../../assets/image/dmr-repeaters-and-systems.jpg');
+}

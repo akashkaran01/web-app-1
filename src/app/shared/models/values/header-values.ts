@@ -6,134 +6,119 @@ export const headersData: Header[] = [
         show: false,
         subHeaders: [
             {
-                name: 'Digital Radios & Trunking Solutions',
-                content: 'Hytera provides a full range of DMPR and TETRA products and solutions, including portable and mobile radios, repeaters, IP connection, and trunking sytems.',
+                name: 'Two way Radio Solutions',
+                content: 'Hytera two-way radios combine a rich heritage of reliability and performance with cutting-edge research and new product development. When you buy Hytera radios, you buy products and solutions that are built to perform – and built to last.',
                 showSubHeaderContent: true,
                 subSubHeaderList: [
                     'DMR Two-way Radios',
-                    'DMR Repeaters & FileSystemWritableFileStream',
+                    'DMR Repeaters & Systems',
                     'TETRA Radios',
-                    'TETRA Systems'
+                    'TETRA Systems',
+                    'Intrinsically Safe Radios',
+                    'Analog Two-way Radios',
+                    'Smart Accessories'
                 ]
             },
             {
-                name: 'MCS & POC Products & Solutions',
-                content: 'Hytera provides a full range of DMPR and TETRA products and solutions, including portable and mobile radios, repeaters, IP connection, and trunking sytems.',
+                name: 'MCS & PoC Products & Solutions',
+                content: 'Combining multiple narrowband technologies such as DMR, PDT, TETRA with broadband technologies such as 3G/LTE and WLAN, Hytera offers a convergent communication solution delivering a wide range of end to end services such as audio, data, and video.',
                 showSubHeaderContent: false,
                 subSubHeaderList: [
-                    'DMR Two-way Radios',
-                    'DMR Repeaters & FileSystemWritableFileStream',
-                    'TETRA Radios',
-                    'TETRA Systems'
+                    'POC Radios',
+                    'MCS Devices',
+                    'Dual Mode Rugged Audios',
+                    'Multimedia Communication Platform'
                 ]
             },
             {
                 name: 'Body Camera Solutions',
-                content: 'Hytera provides a full range of DMPR and TETRA products and solutions, including portable and mobile radios, repeaters, IP connection, and trunking sytems.',
+                content: 'Hytera has developed a series of body-worn cameras, from traditional types to models with 4G/LTE capability, and launched a comprehensive solution including the body camera, docking station and evidence management software.',
                 showSubHeaderContent: false,
                 subSubHeaderList: [
-                    'DMR Two-way Radios',
-                    'DMR Repeaters & FileSystemWritableFileStream',
-                    'TETRA Radios',
-                    'TETRA Systems'
-                ]
-            },
-            {
-                name: 'Convergence-Native Solutions',
-                content: 'Hytera provides a full range of DMPR and TETRA products and solutions, including portable and mobile radios, repeaters, IP connection, and trunking sytems.',
-                showSubHeaderContent: false,
-                subSubHeaderList: [
-                    'DMR Two-way Radios',
-                    'DMR Repeaters & FileSystemWritableFileStream',
-                    'TETRA Radios',
-                    'TETRA Systems'
-                ]
-            },
-            {
-                name: 'Analogue Radios',
-                content: 'Hytera provides a full range of DMPR and TETRA products and solutions, including portable and mobile radios, repeaters, IP connection, and trunking sytems.',
-                showSubHeaderContent: false,
-                subSubHeaderList: [
-                    'DMR Two-way Radios',
-                    'DMR Repeaters & FileSystemWritableFileStream',
-                    'TETRA Radios',
-                    'TETRA Systems'
+                    'Body Cameras',
+                    'Docking Station',
+                    'Intelligent Video Management Platform',
                 ]
             },
             {
                 name: 'Fast Deployment Solutions',
-                content: 'Hytera provides a full range of DMPR and TETRA products and solutions, including portable and mobile radios, repeaters, IP connection, and trunking sytems.',
+                content: "Hytera's fast deployment solutions enable secure communication between front-line responders and on-site command centers in complex environments.",
                 showSubHeaderContent: false,
                 subSubHeaderList: [
-                    'DMR Two-way Radios',
-                    'DMR Repeaters & FileSystemWritableFileStream',
-                    'TETRA Radios',
-                    'TETRA Systems'
+                    'Fast Deployment Products'
                 ]
             },
             {
-                name: 'Control Room Sultions',
-                content: 'Hytera provides a full range of DMPR and TETRA products and solutions, including portable and mobile radios, repeaters, IP connection, and trunking sytems.',
+                name: 'Control Room',
+                content: "Hytera's command and control solutions empower police, firefighters, and the energy/traffic sectors, enhancing situational awareness and enabling faster, precise responses.",
                 showSubHeaderContent: false,
                 subSubHeaderList: [
-                    'DMR Two-way Radios',
-                    'DMR Repeaters & FileSystemWritableFileStream',
-                    'TETRA Radios',
-                    'TETRA Systems'
+                    'Integrated Command & Control Solutions',
+                    'Unified Communication & Dispatch',
                 ]
             },
             {
-                name: '4G/5G Solutions',
-                content: 'Hytera provides a full range of DMPR and TETRA products and solutions, including portable and mobile radios, repeaters, IP connection, and trunking sytems.',
+                name: '4G/5G Broadband',
+                content: "Hytera's 4G / 5G broadband system products and solutions feature independent control, high integration, flexible deployment and integration of public and private sectors.",
                 showSubHeaderContent: false,
                 subSubHeaderList: [
-                    'DMR Two-way Radios',
-                    'DMR Repeaters & FileSystemWritableFileStream',
-                    'TETRA Radios',
-                    'TETRA Systems'
+                    'Unified Network Management System',
+                    'Core Network',
+                    'BBU',
+                    'RU',
+                    'One-box Base Station'
                 ]
             },
             {
-                name: 'Smart Accessories',
-                content: 'Hytera provides a full range of DMPR and TETRA products and solutions, including portable and mobile radios, repeaters, IP connection, and trunking sytems.',
+                name: 'Satellite Communications',
+                content: "Hytera offers customizable satellite components, portable terminals, maritime solutions, and networks for remote applications. Enable seamless transmission of data, audio, and video in challenging environments.",
                 showSubHeaderContent: false,
                 subSubHeaderList: [
-                    'DMR Two-way Radios',
-                    'DMR Repeaters & FileSystemWritableFileStream',
-                    'TETRA Radios',
-                    'TETRA Systems'
+                    'Satellite Terminals',
+                    'Satellite Components',
+                    'Satellite Network Solutions'
                 ]
             },
             {
-                name: 'Satellite Solutions',
-                content: 'Hytera provides a full range of DMPR and TETRA products and solutions, including portable and mobile radios, repeaters, IP connection, and trunking sytems.',
+                name: 'Antenna & RF Conditioning',
+                content: "Focused on commercial applications for the wireless world, including antennas, multi-couplers, combiners, duplexers, isolators, mounting hardware and equipment shelters for remote commercial sites.",
                 showSubHeaderContent: false,
                 subSubHeaderList: [
-                    'DMR Two-way Radios',
-                    'DMR Repeaters & FileSystemWritableFileStream',
-                    'TETRA Radios',
-                    'TETRA Systems'
+                    'Antennas',
+                    'RF Signal Conditioning and Filters',
                 ]
             },
             {
-                name: 'Antenna & RF Conditioning Products',
-                content: 'Hytera provides a full range of DMPR and TETRA products and solutions, including portable and mobile radios, repeaters, IP connection, and trunking sytems.',
+                name: 'Communication Vehicles',
+                content: "Hytera specializes in diverse chassis options and customized compartments to meet unique customer needs. We also customize power supply, heat dissipation, damping, and other communication equipment systems, along with temperature control, ventilation, lighting, and operator-friendly furniture.",
                 showSubHeaderContent: false,
                 subSubHeaderList: [
-                    'DMR Two-way Radios',
-                    'DMR Repeaters & FileSystemWritableFileStream',
-                    'TETRA Radios',
-                    'TETRA Systems'
+                    'Small-sized Vehicles',
+                    'Medium-sized Vehicles',
+                    'Large-sized Vehicles',
+                    'Other Refitted Vehicles'
                 ]
-            }, {
-                name: 'Communication Vehicle Solutions',
-                content: 'Hytera provides a full range of DMPR and TETRA products and solutions, including portable and mobile radios, repeaters, IP connection, and trunking sytems.',
+            },
+            {
+                name: 'Control Centres',
+                content: "To be modified",
                 showSubHeaderContent: false,
                 subSubHeaderList: [
-                    'DMR Two-way Radios',
-                    'DMR Repeaters & FileSystemWritableFileStream',
-                    'TETRA Radios',
-                    'TETRA Systems'
+                    'Small-sized Vehicles',
+                    'Medium-sized Vehicles',
+                    'Large-sized Vehicles',
+                    'Other Refitted Vehicles'
+                ]
+            },
+            {
+                name: 'On board equipments',
+                content: "To be modified",
+                showSubHeaderContent: false,
+                subSubHeaderList: [
+                    'Small-sized Vehicles',
+                    'Medium-sized Vehicles',
+                    'Large-sized Vehicles',
+                    'Other Refitted Vehicles'
                 ]
             },
         ]
@@ -143,29 +128,36 @@ export const headersData: Header[] = [
         subHeaders: [
             {
                 name: 'Industry Solutions',
-                content: 'Hytera provides a full range of DMPR and TETRA products and solutions, including portable and mobile radios, repeaters, IP connection, and trunking sytems.',
+                content: 'Hytera provides seamless professional communication and advanced technologies to enhance operational efficiency for public safety and commercial industries.',
                 showSubHeaderContent: true,
                 subSubHeaderList: [
-                    'DMR Two-way Radios',
-                    'DMR Repeaters & FileSystemWritableFileStream',
-                    'TETRA Radios',
-                    'TETRA Systems',
-                    'DMR Two-way Radios',
-                    'DMR Repeaters & FileSystemWritableFileStream',
-                    'TETRA Radios',
-                    'TETRA Systems',
-                    'DMR Two-way Radios',
-                    'DMR Repeaters & FileSystemWritableFileStream',
-                    'TETRA Radios',
-                    'TETRA Systems'
+                    'Public Safety',
+                    'Education',
+                    'Security',
+                    'Mining',
+                    'Facilities Management',
+                    'Sports Events',
+                    'Oil & Gas',
+                    'Hospitality & Events',
+                    'Transportation',
+                    'Electric Power',
+                    'Hospitals & Healthcare',
+                    'Emergency Response',
+                    'MCS & PoC Operator'
+                ],
+            },
+            {
+                name: 'Convergence Native Solutions',
+                content: 'Next Generation Critical Communications ensure reliable mission-critical frontline communications for Emergency Services, ensuring public safety, law enforcement, protection of life and property, and effective response to health events.',
+                showSubHeaderContent: false,
+                subSubHeaderList: [
                 ]
             },
             {
                 name: 'Case Studies',
-                content: 'Hytera provides a full range of DMPR and TETRA products and solutions, including portable and mobile radios, repeaters, IP connection, and trunking sytems.',
+                content: 'Discover how our communication solutions have helped organizations overcome challenges, improve efficiency, and achieve their goals.',
                 showSubHeaderContent: false,
                 subSubHeaderList: [
-                    'Case Studies'
                 ]
             }
         ]
@@ -178,26 +170,25 @@ export const headersData: Header[] = [
                 content: 'Hytera provides a full range of DMPR and TETRA products and solutions, including portable and mobile radios, repeaters, IP connection, and trunking sytems.',
                 showSubHeaderContent: true,
                 subSubHeaderList: [
-                    'DMR Two-way Radios',
-                    'DMR Repeaters & FileSystemWritableFileStream',
-                    'TETRA Radios',
-                    'TETRA Systems'
+                    'Find Service Center',
+                    'Service Products',
+                    'Service Solutions'
                 ]
-            },{
+            }, {
                 name: 'Training & Certification',
                 content: 'Hytera provides a full range of DMPR and TETRA products and solutions, including portable and mobile radios, repeaters, IP connection, and trunking sytems.',
                 showSubHeaderContent: false,
                 subSubHeaderList: [
-                    'TETRA Radios',
-                    'TETRA Systems'
+                    'Training Courses',
+                    'Certification Lookup',
+                    'Webinar Replay'
                 ]
-            },{
+            }, {
                 name: 'Warranty',
                 content: 'Hytera provides a full range of DMPR and TETRA products and solutions, including portable and mobile radios, repeaters, IP connection, and trunking sytems.',
                 showSubHeaderContent: false,
                 subSubHeaderList: [
-                    'Service Products',
-                    'Service Solutions'
+                    'Warranty Lookup'
                 ]
             },
             {
@@ -205,10 +196,7 @@ export const headersData: Header[] = [
                 content: 'Hytera provides a full range of DMPR and TETRA products and solutions, including portable and mobile radios, repeaters, IP connection, and trunking sytems.',
                 showSubHeaderContent: false,
                 subSubHeaderList: [
-                    'Service Products',
-                    'Service Solutions',
-                    'Service Products',
-                    'Service Solutions'
+                    'FAQ'
                 ]
             },
             {
@@ -216,10 +204,7 @@ export const headersData: Header[] = [
                 content: 'Hytera provides a full range of DMPR and TETRA products and solutions, including portable and mobile radios, repeaters, IP connection, and trunking sytems.',
                 showSubHeaderContent: false,
                 subSubHeaderList: [
-                    'Service Products',
-                    'Service Solutions',
-                    'Service Products',
-                    'Service Solutions'
+                    'Download Center'
                 ]
             },
 
@@ -257,10 +242,10 @@ export const headersData: Header[] = [
                 content: 'Hytera provides a full range of DMPR and TETRA products and solutions, including portable and mobile radios, repeaters, IP connection, and trunking sytems.',
                 showSubHeaderContent: true,
                 subSubHeaderList: [
-                    'DMR Two-way Radios',
-                    'DMR Repeaters & FileSystemWritableFileStream',
-                    'TETRA Radios',
-                    'TETRA Systems'
+                    'Saikia Profile',
+                    'Saikia Brand',
+                    'Saikia History',
+                    'Saikia Showroom'
                 ]
             },
             {
@@ -268,10 +253,8 @@ export const headersData: Header[] = [
                 content: 'Hytera provides a full range of DMPR and TETRA products and solutions, including portable and mobile radios, repeaters, IP connection, and trunking sytems.',
                 showSubHeaderContent: false,
                 subSubHeaderList: [
-                    'DMR Two-way Radios',
-                    'DMR Repeaters & FileSystemWritableFileStream',
-                    'TETRA Radios',
-                    'TETRA Systems'
+                    '30th Anniversary',
+                    'Global Partner Summit 2023'
                 ]
             },
             {
@@ -279,10 +262,8 @@ export const headersData: Header[] = [
                 content: 'Hytera provides a full range of DMPR and TETRA products and solutions, including portable and mobile radios, repeaters, IP connection, and trunking sytems.',
                 showSubHeaderContent: false,
                 subSubHeaderList: [
-                    'DMR Two-way Radios',
-                    'DMR Repeaters & FileSystemWritableFileStream',
-                    'TETRA Radios',
-                    'TETRA Systems'
+                    'Internation Critical Communications Adwards',
+                    'Industrial Design Awards'
                 ]
             },
             {
@@ -290,10 +271,11 @@ export const headersData: Header[] = [
                 content: 'Hytera provides a full range of DMPR and TETRA products and solutions, including portable and mobile radios, repeaters, IP connection, and trunking sytems.',
                 showSubHeaderContent: false,
                 subSubHeaderList: [
-                    'DMR Two-way Radios',
-                    'DMR Repeaters & FileSystemWritableFileStream',
-                    'TETRA Radios',
-                    'TETRA Systems'
+                    'News',
+                    'Blogs',
+                    'Events',
+                    'Videos',
+                    'Connect Magazine'
                 ]
             },
             {
@@ -301,10 +283,8 @@ export const headersData: Header[] = [
                 content: 'Hytera provides a full range of DMPR and TETRA products and solutions, including portable and mobile radios, repeaters, IP connection, and trunking sytems.',
                 showSubHeaderContent: false,
                 subSubHeaderList: [
-                    'DMR Two-way Radios',
-                    'DMR Repeaters & FileSystemWritableFileStream',
-                    'TETRA Radios',
-                    'TETRA Systems'
+                    'Saikia Offices',
+                    'Subscribe'
                 ]
             }
         ]

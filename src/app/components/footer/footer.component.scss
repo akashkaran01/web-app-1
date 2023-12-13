@@ -1,95 +1,139 @@
 @import "../../../assets/css/variable.scss";
 
 footer {
-    margin-top: 20px;
-    // height: 100px;
-    // height: auto;
+  margin-top: 20px;
+  // height: 100px;
+  // height: auto;
 
-    .container {
-        max-width: 82%;
-        margin: auto;
+  .container {
+    max-width: 82%;
+    margin: auto;
 
-        .footer-head {
-            height: 145px;
-            padding: 40px 0;
-            border-bottom: 1px solid grey;
-            
-            .saikia{
-                background-image: url(./../../../assets/image/Saikia-Logo.jpg);
-                width: 280px;
-                height: 100%;
-            }
+    .footer-head {
+      height: 145px;
+      padding: 40px 0;
+      border-bottom: 1px solid grey;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .saikia-logo {
+        background-image: url(./../../../assets/image/Saikia-Logo.jpg);
+        width: 280px;
+        height: 100%;
+      }
+
+      .social-media {
+        color: #fff;
+        font-size: 13px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+        .icons {
+          padding: 0 20px;
         }
 
-        .footer-body {
-            padding: 32px 0;
-            display: flex;
-            font-size: 13px;
-            border-bottom: 1px solid grey;
-
-            .footer-body-lists {
-                flex: 0 0 16.66667%;
-                max-width: 16.66667%;
-                list-style-type: none;
-                color: #919699;
-
-                .footer-body-heading {
-                    font-weight: 700;
-                    color: $project-white;
-                    padding: 8px 0;
-                }
-
-                .footer-body-item {
-                    font-weight: 400;
-                    padding: 8px 0;
-
-                    span:hover {
-                        text-decoration: underline;
-                        cursor: pointer
-                    }
-                }
-            }
+        .facebook-logo {
+          background-image: url(./../../../assets/icons/facebook-icon.png);
+          width: 25px;
+          height: 25px;
+          cursor: pointer;
         }
 
-        .footer-tail {
-            display: flex;
-            height: 70px;
-            padding: 25px 0;
-            border-bottom: 1px solid grey;
-
-            .footer-tail-head-child {
-                font-weight: 400;
-                color: #919699;
-                font-size: 13px;
-            }
+        .instagram-logo {
+          background-image: url(./../../../assets/icons/instagram-icon.png);
+          width: 22px;
+          height: 22px;
+          cursor: pointer;
         }
 
-        .container-policy {
-            display: flex;
-            height: 70px;
-            padding: 25px 0;
-            color: rgb(147 8 8);
-            font-size: 13px;
-
-            .copyright {
-                flex: 0 0 70%;
-
-                span:hover {
-                    cursor: pointer;
-                    color: greenyellow;
-                }
-            }
-
-            .policies {
-                a {
-                    padding: 0 20px;
-                }
-
-                a:hover {
-                    cursor: pointer;
-                    color: greenyellow;
-                }
-            }
+        .youtube-logo {
+          background-image: url(./../../../assets/icons/youtube-icon.png);
+          width: 26px;
+          height: 26px;
+          cursor: pointer;
         }
+
+        .linkedin-logo {
+          background-image: url(./../../../assets/icons/linkedin-icon.png);
+          width: 26px;
+          height: 26px;
+          cursor: pointer;
+        }
+      }
     }
+
+    .footer-body {
+      padding: 32px 0;
+      display: flex;
+      font-size: 12px;
+      border-bottom: 1px solid grey;
+
+      .footer-body-lists {
+        flex: 0 0 16.66667%;
+        max-width: 16.66667%;
+        list-style-type: none;
+        color: hsla(0, 0%, 100%, 0.6);
+
+        .footer-body-heading {
+          font-weight: 700;
+          color: $project-white;
+          padding: 8px 0;
+        }
+
+        .footer-body-item {
+          font-weight: 400;
+          padding: 8px 0;
+
+          span:hover {
+            text-decoration: underline;
+            // Change it to pointer
+            cursor: default;
+          }
+        }
+      }
+    }
+
+    .footer-tail {
+      display: flex;
+      height: 70px;
+      padding: 25px 0;
+      border-bottom: 1px solid grey;
+
+      .footer-tail-head-child {
+        font-weight: 400;
+        color: hsla(0, 0%, 100%, 0.6);
+        font-size: 12px;
+      }
+    }
+
+    .container-policy {
+      display: flex;
+      height: 70px;
+      padding: 25px 0;
+      color: hsla(0, 0%, 100%, 0.6);
+      font-size: 12px;
+
+      .copyright {
+        flex: 0 0 70%;
+
+        span:hover {
+          cursor: pointer;
+          color: greenyellow;
+        }
+      }
+
+      .policies {
+        a {
+          padding: 0 20px;
+        }
+
+        a:hover {
+          cursor: pointer;
+          color: greenyellow;
+        }
+      }
+    }
+  }
 }

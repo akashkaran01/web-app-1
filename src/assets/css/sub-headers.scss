@@ -1,0 +1,42 @@
+.sub-page-internal-heading {
+  font-size: 55px;
+  color: #00205b;
+  line-height: 70px;
+  margin-bottom: 30px;
+}
+
+.sub-page-internal-para {
+  line-height: 1.5;
+  font-size: 17px;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 0;
+}
+
+.text-img-side-by-side-container {
+  display: flex;
+  flex-direction: row;
+
+  .text-container {
+    padding: 50px;
+    width: 575px;
+    background-color: #f8f8f8;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sub-page-internal-heading {
+    font-size: 40px !important;
+  }
+
+  .sub-page-internal-para {
+    margin-bottom: 20px;
+  }
+}

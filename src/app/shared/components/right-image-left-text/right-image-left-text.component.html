@@ -1,0 +1,14 @@
+<div class="text-img-side-by-side-container">
+    <div class="text-container">
+        <h1 class="sub-page-internal-heading">{{headerAndInfo.header}}</h1>
+        <div class="sub-page-internal-para">
+            <p> {{headerAndInfo.headerExplanationPara}}
+            </p>
+        </div>
+        <div *ngIf="headerAndInfo.showLearnMoreButton" class="primary-btn">
+            LEARN MORE
+        </div>
+    </div>
+    <div [class]="bgImageClassName">
+    </div>
+</div>

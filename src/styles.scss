@@ -5,23 +5,77 @@
 
 // Move this font at correct position later.
 @font-face {
-    font-family: 'Roboto-Light-300';
-    src: url("./assets/fonts/Roboto/Roboto-Light.ttf");
+  font-family: "Roboto-Light-300";
+  src: url("./assets/fonts/Roboto/Roboto-Light.ttf");
 }
 
 /** CSS RESET */
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-    // font-family:Georgia, 'Times New Roman', Times, serif
-    // font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-family: 'Roboto-Light-300', sans-serif;
+  // font-family:Georgia, 'Times New Roman', Times, serif
+  // font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: "Roboto-Light-300", sans-serif;
 }
 
 .bg-black {
-    background-color: #1a1a1a;
+  background-color: #1a1a1a;
 }
+
+.primary-btn {
+  height: 38px;
+  width: 160px;
+  border-radius: 20px;
+
+  padding: 11px 0;
+  background-color: #44a0e9;
+
+  cursor: pointer;
+
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  // font-weight: 600;
+  // letter-spacing: 1.2px;
+}
+
+.primary-btn:hover {
+  background-color: #297ec4;
+}
+
+.watch-video-btn {
+  height: 38px;
+  width: 160px;
+  border-radius: 20px;
+
+  padding: 11px 0;
+  background-color: transparent;
+  border: 1px solid #9b9b9b;
+
+  //Change it to pointer
+  cursor: default;
+
+  text-align: center;
+  color: #9b9b9b;
+  font-size: 14px;
+  font-weight: 600;
+  // letter-spacing: 1.2px;
+}
+
+.watch-video-btn:hover {
+  border-color: #44a0e9;
+  color: #44a0e9;
+}
+
+.page-center {
+  max-width: 1150px !important;
+  width: 100%;
+  margin: 0 auto;
+  height: 100%;
+}
+
+@import "./assets/css/sub-headers.scss";
