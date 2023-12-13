@@ -65,7 +65,9 @@
       .hyperlink {
         margin-top: 3rem;
         font-size: 20px;
-        cursor: pointer;
+
+        // Change it to pointer
+        cursor: default;
       }
 
       .hyperlink:hover {
