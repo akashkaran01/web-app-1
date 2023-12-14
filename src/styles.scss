@@ -22,9 +22,20 @@ body {
   font-family: "Roboto-Light-300", sans-serif;
 }
 
+/** All background colours */
 .bg-black {
   background-color: #1a1a1a;
 }
+
+.bg-dark-blue {
+  background-color: #00205b;
+}
+
+.bg-blue:hover {
+  background: #a3d6ff;
+}
+
+/** END */
 
 .primary-btn {
   height: 38px;

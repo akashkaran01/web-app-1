@@ -16,7 +16,6 @@ export const headersData: Header[] = [
                     'TETRA Systems',
                     'Intrinsically Safe Radios',
                     'Analog Two-way Radios',
-                    'Smart Accessories'
                 ]
             },
             {
@@ -233,60 +232,61 @@ export const headersData: Header[] = [
                 ]
             }
         ]
-    }, {
-        name: 'About Saikia',
-        show: false,
-        subHeaders: [
-            {
-                name: 'About Saikia',
-                content: 'Hytera provides a full range of DMPR and TETRA products and solutions, including portable and mobile radios, repeaters, IP connection, and trunking sytems.',
-                showSubHeaderContent: true,
-                subSubHeaderList: [
-                    'Saikia Profile',
-                    'Saikia Brand',
-                    'Saikia History',
-                    'Saikia Showroom'
-                ]
-            },
-            {
-                name: 'Anniversary',
-                content: 'Hytera provides a full range of DMPR and TETRA products and solutions, including portable and mobile radios, repeaters, IP connection, and trunking sytems.',
-                showSubHeaderContent: false,
-                subSubHeaderList: [
-                    '30th Anniversary',
-                    'Global Partner Summit 2023'
-                ]
-            },
-            {
-                name: 'Awards and Recognitions',
-                content: 'Hytera provides a full range of DMPR and TETRA products and solutions, including portable and mobile radios, repeaters, IP connection, and trunking sytems.',
-                showSubHeaderContent: false,
-                subSubHeaderList: [
-                    'Internation Critical Communications Adwards',
-                    'Industrial Design Awards'
-                ]
-            },
-            {
-                name: 'Press Center',
-                content: 'Hytera provides a full range of DMPR and TETRA products and solutions, including portable and mobile radios, repeaters, IP connection, and trunking sytems.',
-                showSubHeaderContent: false,
-                subSubHeaderList: [
-                    'News',
-                    'Blogs',
-                    'Events',
-                    'Videos',
-                    'Connect Magazine'
-                ]
-            },
-            {
-                name: 'Contact Us',
-                content: 'Hytera provides a full range of DMPR and TETRA products and solutions, including portable and mobile radios, repeaters, IP connection, and trunking sytems.',
-                showSubHeaderContent: false,
-                subSubHeaderList: [
-                    'Saikia Offices',
-                    'Subscribe'
-                ]
-            }
-        ]
-    }
+    },
+    // {
+    //     name: 'About Saikia',
+    //     show: false,
+    //     subHeaders: [
+    //         {
+    //             name: 'About Saikia',
+    //             content: 'Hytera provides a full range of DMPR and TETRA products and solutions, including portable and mobile radios, repeaters, IP connection, and trunking sytems.',
+    //             showSubHeaderContent: true,
+    //             subSubHeaderList: [
+    //                 'Saikia Profile',
+    //                 'Saikia Brand',
+    //                 'Saikia History',
+    //                 'Saikia Showroom'
+    //             ]
+    //         },
+    //         {
+    //             name: 'Anniversary',
+    //             content: 'Hytera provides a full range of DMPR and TETRA products and solutions, including portable and mobile radios, repeaters, IP connection, and trunking sytems.',
+    //             showSubHeaderContent: false,
+    //             subSubHeaderList: [
+    //                 '30th Anniversary',
+    //                 'Global Partner Summit 2023'
+    //             ]
+    //         },
+    //         {
+    //             name: 'Awards and Recognitions',
+    //             content: 'Hytera provides a full range of DMPR and TETRA products and solutions, including portable and mobile radios, repeaters, IP connection, and trunking sytems.',
+    //             showSubHeaderContent: false,
+    //             subSubHeaderList: [
+    //                 'Internation Critical Communications Adwards',
+    //                 'Industrial Design Awards'
+    //             ]
+    //         },
+    //         {
+    //             name: 'Press Center',
+    //             content: 'Hytera provides a full range of DMPR and TETRA products and solutions, including portable and mobile radios, repeaters, IP connection, and trunking sytems.',
+    //             showSubHeaderContent: false,
+    //             subSubHeaderList: [
+    //                 'News',
+    //                 'Blogs',
+    //                 'Events',
+    //                 'Videos',
+    //                 'Connect Magazine'
+    //             ]
+    //         },
+    //         {
+    //             name: 'Contact Us',
+    //             content: 'Hytera provides a full range of DMPR and TETRA products and solutions, including portable and mobile radios, repeaters, IP connection, and trunking sytems.',
+    //             showSubHeaderContent: false,
+    //             subSubHeaderList: [
+    //                 'Saikia Offices',
+    //                 'Subscribe'
+    //             ]
+    //         }
+    //     ]
+    // }
 ]

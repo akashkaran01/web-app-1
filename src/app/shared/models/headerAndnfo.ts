@@ -1,5 +1,6 @@
 export interface HeaderAndInfo {
     header: string,
     headerExplanationPara: string,
-    showLearnMoreButton?: boolean
+    showLearnMoreButton?: boolean,
+    showWatchVideoButton?: boolean
 }

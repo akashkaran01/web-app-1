@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component } from '@angular/core';
 import { HeaderAndInfo } from 'src/app/shared/models/headerAndnfo';
 
 @Component({
@@ -10,7 +10,8 @@ export class DmrRepeatersAndSystemsComponent {
 
   imageContent: HeaderAndInfo = {
     header: 'DMR Repeaters & Systems',
-    headerExplanationPara: 'Digital Mobile Radio Conventional & Trunking'
+    headerExplanationPara: 'Digital Mobile Radio Conventional & Trunking',
+    showWatchVideoButton: true
   }
 
   textContent0: HeaderAndInfo = {

@@ -47,17 +47,29 @@ export class HeaderComponent {
   }
 
   initiateRoute(routeTo: string) {
+
+    // I need to make a File and store all routes over there and from there I need to use it. 
+
     if (routeTo == 'home') {
       this.router.navigateByUrl('home')
     } else if (routeTo === 'DMR Two-way Radios') {
       this.router.navigateByUrl('product-new/digital-radio/dmr-two-way-radios')
     } else if (routeTo === 'DMR Repeaters & Systems') {
       this.router.navigateByUrl('product-new/digital-radio/dmr-repeaters-and-systems')
+    } else if (routeTo === 'Analog Two-way Radios') {
+      this.router.navigateByUrl('product-new/analog-two-way-radio/analog-radio')
+    } else if (routeTo === 'TETRA Radios') {
+      this.router.navigateByUrl('product-new/digital-radio/tetra-two-way-radio')
+    } else if (routeTo === 'TETRA Systems') {
+      this.router.navigateByUrl('product-new/digital-radio/tetra-systems')
+    } else if (routeTo === 'Intrinsically Safe Radios') {
+      this.router.navigateByUrl('product-new/intrinsically-safe-radios')
     }
     this.hideHeaderContent();
   }
 
   openSaikia() {
-    window.open('http://sai-kia.com/reachUs.html', '_blank');
+    this.router.navigateByUrl('contact-saikia');
+    // window.open('http://sai-kia.com/reachUs.html', '_blank');
   }
 }

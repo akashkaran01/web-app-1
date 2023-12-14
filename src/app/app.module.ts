@@ -12,6 +12,12 @@ import { LeftImageRightTextComponent } from './shared/components/left-image-righ
 import { RightImageLeftTextComponent } from './shared/components/right-image-left-text/right-image-left-text.component';
 import { HeaderAndTextComponent } from './shared/components/header-and-text/header-and-text.component';
 import { DmrRepeatersAndSystemsComponent } from './components/products/dmr-repeaters-and-systems/dmr-repeaters-and-systems.component';
+import { AnalogueTwoWayRadiosComponent } from './components/products/analogue-two-way-radios/analogue-two-way-radios.component';
+import { TetraRadiosComponent } from './components/products/tetra-radios/tetra-radios.component';
+import { TeraSystemsComponent } from './components/products/tera-systems/tera-systems.component';
+import { IntrinsicallySafeRadiosComponent } from './components/products/intrinsically-safe-radios/intrinsically-safe-radios.component';
+import { GoogleMapsModule } from '@angular/google-maps';
+import { ContactUsComponent } from './components/contact-us/contact-us.component';
 
 @NgModule({
   declarations: [
@@ -24,11 +30,17 @@ import { DmrRepeatersAndSystemsComponent } from './components/products/dmr-repea
     LeftImageRightTextComponent,
     RightImageLeftTextComponent,
     HeaderAndTextComponent,
-    DmrRepeatersAndSystemsComponent
+    DmrRepeatersAndSystemsComponent,
+    AnalogueTwoWayRadiosComponent,
+    TetraRadiosComponent,
+    TeraSystemsComponent,
+    IntrinsicallySafeRadiosComponent,
+    ContactUsComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    GoogleMapsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

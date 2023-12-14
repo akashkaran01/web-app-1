@@ -10,7 +10,8 @@ export class DmrTwoWayRadiosComponent {
 
   imageContent: HeaderAndInfo = {
     header: 'DMR Two-way Radios',
-    headerExplanationPara: 'The right place to look for a one-stop DMR communications solution'
+    headerExplanationPara: 'The right place to look for a one-stop DMR communications solution',
+    showWatchVideoButton: true
   }
 
   textContent0: HeaderAndInfo = {

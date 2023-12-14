@@ -53,7 +53,8 @@
             <div class="selected-subnav-feet">
               <div *ngFor="let subsubHeader of subHeader.subSubHeaderList" class="selected-subnav-feet-item"
                 (click)="initiateRoute(subsubHeader)"
-                [ngStyle]="{ 'cursor' : subsubHeader === 'DMR Two-way Radios' || subsubHeader === 'DMR Repeaters & Systems' ? 'pointer' : 'default' }">
+                [ngStyle]="{ 'cursor' : subHeader.name === 'Two way Radio Solutions' ? 'pointer' : 'default'}"
+                [ngClass]="subHeader.name === 'Two way Radio Solutions' ? 'bg-blue': '' ">
                 {{subsubHeader}}
               </div>
             </div>
